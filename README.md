@@ -11,3 +11,5 @@ Through this course I will demonstrate mastery of the following competencies:
 * Understand the OOP paradigm and apply it in computer programming language
 * Apply professional documentation and structure to computer coded programs
 * Utilize and customize outside coding libraries to quickly solve business problems
+
+Assignment 01: Just one line of code that prints Hello World in a properly named and documented  .py file along with the properly documented and constructed VS solution & project built around it.
