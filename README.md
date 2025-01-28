@@ -12,4 +12,6 @@ Through this course I will demonstrate mastery of the following competencies:
 * Apply professional documentation and structure to computer coded programs
 * Utilize and customize outside coding libraries to quickly solve business problems
 
-Assignment 01: Just one line of code that prints Hello World in a properly named and documented  .py file along with the properly documented and constructed VS solution & project built around it.
+Assignment 01: Just one line of code that prints Hello World in a properly named and documented Python file (.py) along with the properly documented and constructed VS solution & project built around it.
+
+Assignment 02: This code showcases how to print values, perform arithmetic operations, index strings, and convert data types, all within a well-documented Python file (.py) and a properly documented and constructed VS solution & project built around it.
