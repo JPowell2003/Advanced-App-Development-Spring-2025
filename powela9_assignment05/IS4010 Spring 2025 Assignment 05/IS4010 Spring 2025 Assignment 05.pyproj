@@ -1,0 +1,57 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>acab1e6d-8ae8-4092-abe5-e8fce827a854</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>main_package\main.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>IS4010 Spring 2025 Assignment 05</Name>
+    <RootNamespace>IS4010 Spring 2025 Assignment 05</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="car_analysis_package\car_data_processing.py" />
+    <Compile Include="car_analysis_package\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="data_utilities_package\data_utilities.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="data_utilities_package\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="main_package\main.py" />
+    <Compile Include="main_package\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="car_analysis_package\" />
+    <Folder Include="Data\" />
+    <Folder Include="data_utilities_package\" />
+    <Folder Include="main_package\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\car_price_dataset.csv" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
